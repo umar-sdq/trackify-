@@ -1,0 +1,22 @@
+
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(0, 51, 20, 0.911);
+    display: flex;
+    gap: 20px;
+    justify-content: right;
+    
+}
+
+.buttons{
+    display: flex;
+    gap: 15px;
+    margin-right: 20px;
+    padding: 10px;
+}

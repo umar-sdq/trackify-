@@ -4,6 +4,12 @@ import { checkAuth } from "../util/check-auth.js";
 
 const router = express.Router();
 
+console.log("user-routes loaded");
+
+router.get("/test", (req, res) => {
+  res.json({ ok: true, route: "/api/users/test" });
+});
+
 router.use(checkAuth);
 
 router.get("/me", getMe);
